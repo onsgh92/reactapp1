@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: lightsalmon;
+}
+form {
+  margin:20px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+img{
+
+  margin:5px;
+}
+header {
+ 
+  background-color: #282c34;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color:coral;
+  font-family: Cambria;
+  color: darkslategrey;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
